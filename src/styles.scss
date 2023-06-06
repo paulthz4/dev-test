@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.active{
+  font-weight: bold;
+  color:#074388;
+}
+
+.container-col{
+  display: flex;
+  flex-direction: column;
+  // gap:2em;
+  align-items: center;
+  text-align: center;
+}
+
+.container-row{
+  display: flex;
+  justify-content: center;
+}
+
+.borders{
+  border: 1px solid black;
+}
+
+.card {
+  all: unset;
+  border-radius: 4px;
+  // border: 1px solid #eee;
+  background-color: #f1f1f1;
+  // height: 40px;
+  // width: 200px;
+  margin: 0 8px 16px;
+  padding: 16px;
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: center;
+  // align-items: center;
+  transition: all 0.2s ease-in-out;
+  line-height: 24px;
+}

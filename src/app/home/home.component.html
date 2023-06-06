@@ -1,0 +1,109 @@
+<!-- 
+<mat-grid-list cols="3" rowHeight="2:1" class="borders">
+  <mat-grid-tile class="borders" colspan="2" style="background-color:aquamarine">
+    <mat-grid-tile-header>Posts</mat-grid-tile-header>
+      These are some posts that explain how to do things that I found didn't have a lot of resources in the web.
+  </mat-grid-tile>
+  <mat-grid-tile class="borders" rowspan="2" style="width:200px">
+    <mat-card id="categoriesz">
+      <mat-card-content>
+        <mat-list>
+          <mat-list-item *ngFor="let category of categories" class="pointer">
+            {{category}}
+          </mat-list-item>
+        </mat-list>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <mat-card>
+      <mat-card-header >
+        <mat-card-title>Reading and Writing / AWS S3 Bucket</mat-card-title>
+        <mat-card-subtitle style="color:#DDBDF1">Angular AWS</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p>
+          The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+          A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+          bred for hunting.
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button>Save</button>
+      </mat-card-actions>
+    </mat-card>
+  </mat-grid-tile>
+
+</mat-grid-list> -->
+
+
+
+<mat-grid-list cols="1" rowHeight="2:1" class="borders">
+  <mat-grid-tile class="borders" style="background-color:aquamarine">
+    <mat-grid-tile-header>Posts</mat-grid-tile-header>
+    <div class="container-row">
+      These are some posts that explain how to do things that I found didn't have a lot of resources in the web.
+      <mat-card id="categorieszz">
+        <mat-card-content>
+          <mat-list>
+            <mat-list-item *ngFor="let category of categories" class="pointer">
+              {{category}}
+            </mat-list-item>
+          </mat-list>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile >
+    <div class="container-col">
+      <mat-card class="post-card">
+        <mat-card-header >
+          <mat-card-title>Reading and Writing / AWS S3 Bucket</mat-card-title>
+          <mat-card-subtitle style="color:#DDBDF1">Angular AWS</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+            bred for hunting.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>Save</button>
+        </mat-card-actions>
+      </mat-card>
+      <mat-card class="post-card">
+        <mat-card-header >
+          <mat-card-title>Converint HTML To PDF</mat-card-title>
+          <mat-card-subtitle style="color:#DDBDF1">HTML Javascript</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <p>
+            This post will show you how to convert your html page to PDF without converting it to an image. This is useful because you can copy and past elements of the pdf.
+            Will be using Javascript, HTML, CSS, and JsPDF library.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>Save</button>
+        </mat-card-actions>
+      </mat-card>
+      <mat-card class="post-card">
+        <mat-card-header >
+          <mat-card-title>How to run Task Scheduler on Windows and Crontab on Linux</mat-card-title>
+          <mat-card-subtitle style="color:#DDBDF1">Angular AWS</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <p>
+            Will teach you how to use windows Task Scheduler to run any task. Specifically it will run a node.js 
+            script used in a previous post that reads, download then deletes objects from an AWS S3.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>Save</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </mat-grid-tile>
+
+</mat-grid-list>
+
